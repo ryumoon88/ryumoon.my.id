@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.ts-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.app::-webkit-scrollbar {
+  width: 0px;
+}
+
+.section {
+  display: flex !important;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+  position: relative;
 }
